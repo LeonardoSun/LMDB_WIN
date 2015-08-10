@@ -11,6 +11,8 @@
  * top-level directory of the distribution or, alternatively, at
  * <http://www.OpenLDAP.org/license.html>.
  */
+#pragma   warning(disable: 4996)
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
