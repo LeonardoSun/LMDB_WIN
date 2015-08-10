@@ -1,6 +1,10 @@
 #include "getopt.h"
 #include <windows.h>
 
+TCHAR* optarg = NULL;
+int    optind = 1;
+int    opterr = 1;
+
 int getopt(int argc, TCHAR *argv[], TCHAR *opstring)
 {
 	static TCHAR *pIndexPosition = NULL;

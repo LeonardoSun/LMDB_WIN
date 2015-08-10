@@ -14,7 +14,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
+
+#ifdef _WIN32
+#include "getopt.h"
+typedef int ssize_t;
+#else
 #include <unistd.h>
+#endif // _WIN32
+
 #include "lmdb.h"
 
 #ifdef	_WIN32

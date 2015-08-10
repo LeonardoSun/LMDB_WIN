@@ -1,12 +1,15 @@
-#pragma once
-#ifdef WIN32
+#ifdef _WIN32
+#ifndef __GETOPT_H__
+#define __GETOPT_H__
 #include <tchar.h>
 
 
-TCHAR* optarg = NULL;
-int    optind = 1;
-int    opterr = 1;
+extern TCHAR* optarg;
+extern int    optind;
+extern int    opterr;
 
 #define _next_char(X) (TCHAR)(*(X+1))
 int getopt(int argc, TCHAR *argv[], TCHAR *opstring);
-#endif // WIN32
+#endif // !__GETOPT_H__
+
+#endif // _WIN32

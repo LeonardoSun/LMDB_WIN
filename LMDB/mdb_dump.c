@@ -16,11 +16,11 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#ifdef WIN32
+#ifdef _WIN32
 #include "getopt.h"
 #else
 #include <unistd.h>
-#endif // WIN32
+#endif // _WIN32
 #include <signal.h>
 #include "lmdb.h"
 

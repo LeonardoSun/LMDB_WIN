@@ -24,12 +24,6 @@
     </Text>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="targetver.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="midl.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -41,10 +35,19 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="mdb_dump.c">
+    <ClCompile Include="getopt.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="mdb_load.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="midl.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mtest.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mtest2.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="mtest3.c">
@@ -65,13 +68,10 @@
     <ClCompile Include="mdb_copy.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="dllmain.c">
+    <ClCompile Include="mdb_dump.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="stdafx.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="getopt.c">
+    <ClCompile Include="mdb_stat.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
