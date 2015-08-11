@@ -38,40 +38,10 @@
     <ClCompile Include="getopt.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="mdb_load.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="midl.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="mtest.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mtest2.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mtest3.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mtest4.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mtest5.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mtest6.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="mdb.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mdb_copy.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mdb_dump.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="mdb_stat.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
